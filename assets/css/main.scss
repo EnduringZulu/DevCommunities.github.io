@@ -1,0 +1,45 @@
+@import 'config.scss';
+@import 'responsive.scss';
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: $mblack;
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: right;
+    display: block;
+    color: $mwhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: $smallfont;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: $mwhite;
+    color: $mblack;
+}
+
+
+/* Add an active class to highlight the current page */
+
+.topnav a.active {
+    background-color: $mgreen;
+    color: $mwhite;
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.topnav .icon {
+    display: none;
+}
