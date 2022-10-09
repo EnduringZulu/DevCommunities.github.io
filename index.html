@@ -9,6 +9,9 @@
     <title>DevCommu</title>
     <!-- css -->
     <link rel="stylesheet" href="assets/css/main.css">
+    <!-- external CSS Ex. Fonts Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <!-- js -->
     <script>
         src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"
@@ -22,9 +25,6 @@
 <body>
 
     <div class="topnav" id="myTopnav">
-        <div class="icon" id="icon">
-            <i class="fa fa-bars"></i>
-        </div>
 
         <div class="navlist">
             <a href="#about">เกี่ยวกับเรา</a>
@@ -45,9 +45,16 @@
     </div>
     <section class="main">
         <header class="header" id="header">
-            <div class="header_img">
+            <!-- <div class="header_img">
                 <img class="image" id="headerimage" src="assets/img/header.jpg" alt="bg">
+            </div> -->
+            <!-- header button -->
+            <div class="button_container" id="header_button_container">
+                <a href="#" class="button">Discord <span><i class="fa-brands fa-discord"></i></span></a>
+                <a href="#" class="button" style="background-color:#3B3737">Github <span><i class="fa-brands fa-github"></i></span></a>
+                <a href="#" class="button" style="background-color:#01F873">เป็นสมาชิก <span><i class="fa-solid fa-users"></i></span></a>
             </div>
+            <!-- Caption -->
             <div class="header_caption">
                 <h1>
                     <span class="underline title" id="title">DevCommu</span>

@@ -44,7 +44,7 @@
 /* Hide the link that should open and close the topnav on small screens */
 
 .topnav .icon {
-    display: block;
+    display: none;
     font-size: $bigfont;
     color: $mblack;
 }
