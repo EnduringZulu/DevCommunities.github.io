@@ -1,0 +1,45 @@
+/* Theme For Website */
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.navlist {
+  padding-right: 10vw;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #1e1d1d;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+  font-size: 1.5vw;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ffffff;
+  color: #cb6ce6;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: None;
+  color: #00f86b;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+  font-size: 2vw;
+  color: #1e1d1d;
+}
+
+.logo {
+  margin-left: 10vw;
+  max-width: 10vw;
+}/*# sourceMappingURL=navbar.css.map */
