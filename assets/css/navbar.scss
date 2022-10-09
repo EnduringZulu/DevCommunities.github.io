@@ -7,6 +7,10 @@
     overflow: hidden;
 }
 
+.navlist {
+    padding-right: 10vw;
+}
+
 
 /* Style the links inside the navigation bar */
 
@@ -40,10 +44,13 @@
 /* Hide the link that should open and close the topnav on small screens */
 
 .topnav .icon {
-    display: none;
+    display: block;
+    font-size: $bigfont;
+    color: $mblack;
 }
 
 // logo
 .logo {
+    margin-left: 10vw;
     max-width: 10vw;
 }

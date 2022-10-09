@@ -1,3 +1,13 @@
 @import 'config.scss';
 @import 'responsive.scss';
 @import 'navbar.scss';
+@import 'header.scss';
+// font
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+// main section
+.main {
+    font-family: 'Kanit', sans-serif;
+    padding-top: 8vh;
+    padding-left: 9vw;
+    padding-right: 9vw;
+}

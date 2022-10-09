@@ -2,26 +2,37 @@
 <html lang="en">
 
 <head>
+    <!-- metadata -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <script src="assets/js/navbar.js" defer></script>
     <title>DevCommu</title>
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- js -->
+    <script>
+        src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    </script>
+    <script src="assets/js/navbar.js"></script>
+    <script src="assets/js/typewritercore.js"></script>
+
+
 </head>
 
 <body>
 
-
     <div class="topnav" id="myTopnav">
         <div class="icon" id="icon">
-            <img src="assets/img/logo.png" alt="logo">
+            <i class="fa fa-bars"></i>
         </div>
 
-        <a href="#about">เกี่ยวกับเรา</a>
-        <a href="#contact">สมาชิก</a>
-        <a href="#news">โปรเจ็ค</a>
-        <a href="#home" class="active">หน้าหลัก</a>
+        <div class="navlist">
+            <a href="#about">เกี่ยวกับเรา</a>
+            <a href="#contact">สมาชิก</a>
+            <a href="#news">โปรเจ็ค</a>
+            <a href="#home" class="active">หน้าหลัก</a>
+        </div>
+
 
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
@@ -32,8 +43,34 @@
         </div>
 
     </div>
-    <h1>DevCommu</h1>
-    <p>DevCommu is a community for developers</p>
+    <section class="main">
+        <header class="header" id="header">
+            <div class="header_img">
+                <img class="image" id="headerimage" src="assets/img/header.jpg" alt="bg">
+            </div>
+            <div class="header_caption">
+                <h1>
+                    <span class="underline title" id="title">DevCommu</span>
+                    <span>is</span>
+                </h1>
+                <h1>
+                    <span>The</span>
+                    <span class="underline" id="devcommuis">Community</span>
+                    <span>for</span>
+                </h1>
+                <h1>
+                    <span class="underline" id="forwho">Developers</span>
+                    <span>
+                        to
+                    </span>
+                    <span class="underline" id="dowhat">Enjoy</span>
+                </h1>
+                <script src="assets/js/headercaption.js"></script>
+            </div>
+        </header>
+    </section>
+
+
 </body>
 
 </html>
