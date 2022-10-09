@@ -9,7 +9,7 @@ var headwriter = new Typewriter(header, {
 });
 
 var caption1writer = new Typewriter(caption1, {
-    strings: ['Community', 'School', 'Cafe', 'Club', 'Camp'],
+    strings: ['คอมมูนิตี้', 'โรงเรียน', 'แคมป์'],
     autoStart: true,
     loop: true,
     delay: 200,
@@ -17,7 +17,7 @@ var caption1writer = new Typewriter(caption1, {
 });
 
 var caption2writer = new Typewriter(caption2, {
-    strings: ['Programmer', 'Learner', 'Developer', 'Students'],
+    strings: ['นักเรียน', 'โปรแกรมเมอร์', 'คนชอบคอม', 'คนอยากทำเว็บ', 'คนชอบไอที', 'คนอยากทำ AI'],
     autoStart: true,
     loop: true,
     delay: 100,
@@ -25,7 +25,7 @@ var caption2writer = new Typewriter(caption2, {
 });
 
 var caption3writer = new Typewriter(caption3, {
-    strings: ['Learn', 'Do Project', 'Hangout', 'Experience'],
+    strings: ['เรียนรู้', 'ทำโปรเจ็ค', 'เจอเพื่อน'],
     autoStart: true,
     loop: true,
     delay: 100,
