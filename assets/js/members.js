@@ -15,7 +15,7 @@ async function membergen(data) {
     let roles = await getrole(username);
 
     let template = `
-    <div class="member" onclick="window.open(${data.html_url})">
+    <div class="member" onclick="window.open('${data.html_url}')">
     <div class="member_img">
         <img src="${data.avatar_url}" alt="member ">
     </div>
