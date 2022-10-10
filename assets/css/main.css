@@ -1,0 +1,188 @@
+/* Theme For Website */ /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+/* Theme For Website */
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.navlist {
+  padding-right: 10vw;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #1e1d1d;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+  font-size: 1.5vw;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ffffff;
+  color: #cb6ce6;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: None;
+  color: #00f86b;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+  font-size: 2vw;
+  color: #1e1d1d;
+}
+
+.logo {
+  margin-left: 10vw;
+  max-width: 10vw;
+}
+
+/* Theme For Website */
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.header .header_img {
+  flex: 3;
+  text-align: center;
+}
+
+.header .header_img .image {
+  max-width: 30vw;
+  border-radius: 15%;
+}
+
+.header .header_caption {
+  flex: 7;
+  font-size: 2.5vw;
+  text-align: right;
+}
+
+.header .header_caption h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 5vw;
+}
+
+#devcommuis {
+  color: #ff1616;
+}
+
+#forwho {
+  color: #00f86b;
+}
+
+#dowhat {
+  color: #cb6ce6;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* Theme For Website */
+#header_button_container {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button_container {
+  min-width: 30vw;
+  max-width: 30vw;
+}
+
+.button {
+  background-color: #1665FF;
+  border: none;
+  color: #ffffff;
+  padding: 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5vw;
+  margin: 4px 2px;
+  margin-top: 1vw;
+  border-radius: 15vw;
+  min-width: 100%;
+}
+
+.cards_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  max-width: 14vw;
+  color: #ffffff;
+}
+
+.member {
+  background-color: #1e1d1d;
+  padding: 2vw;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+  border-radius: 1vw;
+}
+
+.member .member_img img {
+  max-width: 100%;
+}
+
+.member .information {
+  margin: 10%;
+}
+
+.member .information h1 {
+  margin: 0;
+}
+
+.member .information h2 {
+  margin: 0;
+}
+
+.main {
+  font-family: "Kanit", sans-serif;
+  padding-top: 8vh;
+  padding-left: 9vw;
+  padding-right: 9vw;
+}/*# sourceMappingURL=main.css.map */
