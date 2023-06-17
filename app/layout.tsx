@@ -1,7 +1,25 @@
 import './globals.css'
+import localfont from '@next/font/local'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
+const kanit = localfont({
+  src: [
+    {
+      path: '../public/fonts/Kanit/Kanit-Regular.ttf',
+      weight: 'normal',
+    },
+    {
+      path: '../public/fonts/Kanit/Kanit-Medium.ttf',
+      weight: '100',
+    },
+    {
+      path: '../public/fonts/Kanit/Kanit-Bold.ttf',
+      weight: 'bold',
+    },
+  ],
+  variable: '--font-kanit'
+})
 
 export const metadata = {
   title: 'Create Next App',
@@ -15,7 +33,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} ${kanit.variable}`}>{children}</body>
     </html>
   )
 }
