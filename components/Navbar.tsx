@@ -2,8 +2,8 @@
 import { Navbar } from "flowbite-react";
 import Image from 'next/image';
 
-type available_page = "หน้าหลัก" | "โครงงาน" | "เกี่ยวกับเรา";
-type available_nav = "/navbars";
+type available_page = "หน้าหลัก" | "โครงการ" | "เกี่ยวกับเรา";
+type available_nav = "/" | "/project" | "/about";
 
 interface NavbarProps {
     current_page: available_page;
@@ -18,15 +18,15 @@ export default function DeafaultNavbar(props: NavbarProps) {
     const pages:NavbarLinkProps[] = [
         {
             name: "หน้าหลัก",
-            nav: "/navbars",
+            nav: "/",
         },
         {
-            name: "โครงงาน",
-            nav: "/navbars",
+            name: "โครงการ",
+            nav: "/project",
         },
         {
             name: "เกี่ยวกับเรา",
-            nav: "/navbars",
+            nav: "/about",
         }
     ];
     return (
