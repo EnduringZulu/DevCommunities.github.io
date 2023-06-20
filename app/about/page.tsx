@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <main className="bg-white min-h-screen min-w-screen px-20">
             <DefaultNavbar current_page="เกี่ยวกับเรา" />
-            <article id='aboutus' className="font-kanit text-black text-left pt-10 pb-6 mx-20">
+            <article id='aboutus' className="font-kanit text-black text-left pt-10 pb-6 md:mx-20 sm:mx-0">
                 <h1 className="text-3xl font-bold py-5">เกี่ยวกับเรา</h1>
                 <p className="font-mono text-xl font-light">
                     DevCommu ถูกก่อตั้งขึ้น ด้วยจุดประสงค์ ที่จะมอบและส่งต่อความรู้ ส่งต่อโอกาส ในด้านเทคโนโลยี และการเขียนโปรแกรม ให้กับนักเรียน
@@ -23,7 +23,7 @@ export default function Home() {
                     โดยไม่ต้องเสียเงินให้กับคอร์สเรียนพื้นฐาน ขอแค่มีเพียงคอมพิวเตอร์ อินเทอร์เน็ต ความตั้งใจ และเพื่อนที่เต็มไปด้วยไฟ
                 </p>
             </article>
-            <article id='contact' className="font-kanit text-black text-left py-5 pb-20 mx-20">
+            <article id='contact' className="font-kanit text-black text-left py-5 pb-20 md:mx-20 sm:mx-0">
                 <h1 className="text-3xl font-bold py-5">ติดต่อเรา</h1>
                 <p className="font-mono text-xl font-light">
                     หากมีข้อสงสัย อยากให้ไปจัดค่ายให้ หรือต้องการสอบถามเกี่ยวกับ DevCommu สามารถติดต่อได้ที่
