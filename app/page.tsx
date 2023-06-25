@@ -15,8 +15,7 @@ export default function Home() {
     <main className="dark:text-white bg-white text-black min-h-screen min-w-screen px-20 pb-80">
       <DefaultNavbar current_page="หน้าหลัก" />
       <section className="grid grid-cols-2 gap-4 py-10">
-        <div>
-          stuff
+        <div id="social_link" className="flex flex-col align-middle items-center min-w-full">
         </div>
         <Coolbanner />
       </section>
