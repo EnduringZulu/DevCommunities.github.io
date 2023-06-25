@@ -35,7 +35,7 @@ export default function DeafaultNavbar(props: NavbarProps) {
             rounded={true}
             className="font-kanit bg-white"
         >
-            <Navbar.Brand href="https://flowbite.com/">
+            <Navbar.Brand href="/">
                 <Image src={'/devcommu.png'} width={120} height={120} alt="DevCommu" />
             </Navbar.Brand>
             <Navbar.Toggle />
